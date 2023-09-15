@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Developer Portfolio</title>
+	<!-- External CSS link -->
+	<link rel="stylesheet" href="index.css">
+	<!-- Custom web page font style using Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Your+Selected+Font" rel="stylesheet">
+	<link rel="shortcut icon" type="image/x-icon" href="./images/zuittlogo.png">
+	<!-- Bootstrap CSS link -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+</head>
+<body>
+	<!-- Navbar with fixed attributes -->
+	<nav id="nav-bar" class="order-lg-1 navbar navbar-expand-lg navbar-dark bg-dark sticky-top p-5 mb-5">
+		<div id="profile">
+			<img id="picture" src="https://raw.githubusercontent.com/abner861/fcb/bdc5791783614942acaf367fd199589426278643/img/profile.jpg" alt="profile"class="img-fluid">
+		</div>
+		<div class="mt-5 pl-5">
+			<h5 class="text-center text-sm-left text-white">Hi! I'm Abner and I'm a Full Stack Web Developer.</h5>
+			<div id="contact-section" class="d-flex justify-content-center text-center">
+				<div class="col-sm-12 col-md-3">
+					<a id="email-2" href="mailto:abnerdiverajr@gmail.com" class="btn btn-success btn-sm mt-3">Email me and let's work together!</a>
+				</div>
+				<div  class="col-sm-12 col-md-3">
+					<a id="number" href="tel:+6391012345689" class="btn btn-success btn-sm mt-3">Or call: +6391012345689</a>
+				</div>
+				<div  class="col-sm-12 col-md-3">
+					<a id="office" href="https://goo.gl/maps/8dtaprqHxD6M7HLE6" class="btn btn-success btn-sm mt-3" target="_blank">Visit our Office!</a>
+				</div>
+			</div>
+		</div>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#landing">Home</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#projects">Projects</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#contact">Contact</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#tools">Tools</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+
+
+
+
+
+
+	<!-- Main Content -->
+	<main class="container-fluid p-4 mt-5 order-md-1 col-sm-12 my-4 mt-5">
+		<!-- Landing Section -->
+		<section id="landing" class="order-lg-1 order-md-2 py-4 text-center">
+			<h2>Welcome to My Portfolio</h2>
+			<p>Here, you'll find examples of my work and skills as a web developer.</p>
+		</section>
+
+		<!-- Projects Section -->
+		<section id="projects" class="py-4">
+			<h2>Projects:</h2>
+			<!-- Project 1 -->
+			<article class="project rounded p-3">
+				<h3>Project 1</h3>
+				<p>Project 1 is a dynamic web application that I developed to streamline the process of task management. It features an intuitive user interface that allows users to create, update, and prioritize tasks effortlessly. This project showcases my expertise in front-end development, including HTML, CSS, and JavaScript, as well as my ability to design user-friendly experiences.</p>
+			</article>
+			<!-- Project 2 -->
+			<article class="project rounded p-3">
+				<h3>Project 2</h3>
+				<p>Project 2 is a responsive e-commerce website designed to provide a seamless shopping experience. It incorporates advanced features such as product recommendations, user reviews, and secure payment processing. My role in this project included developing the backend using Node.js and MongoDB, ensuring data security and efficient data retrieval. This project highlights my full-stack development skills and my commitment to delivering high-quality, scalable solutions.</p>
+			</article>
+		</section>
+
+		<!-- Tools Section -->
+		<section id="tools" class="py-4">
+			<h2>Tools:</h2>
+			<!-- Tool Images -->
+			<div class="tool-images">
+				<img src="./images/logo-bootstrap.png" alt="Bootstrap Logo" class="rounded">
+				<img src="./images/logo-css3.png" alt="CSS3 Logo" class="rounded">
+				<img src="./images/logo-expressjs.png" alt="Express.js Logo" class="rounded">
+				<img src="./images/logo-git.png" alt="Git Logo" class="rounded">
+				<img src="./images/logo-gitlab-ci-cd.png" alt="GitLab CI/CD Logo" class="rounded">
+				<img src="./images/logo-heroku.png" alt="Heroku Logo" class="rounded">
+				<img src="./images/logo-html5.png" alt="HTML5 Logo" class="rounded">
+				<img src="./images/logo-mongodb.png" alt="MongoDB Logo" class="rounded">
+				<img src="./images/logo-nodejs.png" alt="Node.js Logo" class="rounded">
+				<img src="./images/logo-postman.png" alt="Postman Logo" class="rounded">
+				<img src="./images/logo-react.png" alt="React Logo" class="rounded">
+				<img src="./images/logo-rest.png" alt="REST Logo" class="rounded">
+				<img src="./images/logo-sublime-text-3.png" alt="Sublime Text 3 Logo" class="rounded">
+			</div>
+		</section>
+
+		<!-- Contact Section -->
+		<section id="contact" class="py-4">
+			<h2>Contact Me</h2>
+			<div class="row">
+				<div class="col-sm-12 col-md-6 order-2 order-md-1">
+					<form>
+						<div class="form-group">
+							<label for="name">Name:</label>
+							<input type="text" class="form-control rounded" id="name" name="name" required>
+						</div>
+						<div class="form-group">
+							<label for="email">Email:</label>
+							<input type="email" class="form-control rounded" id="email" name="email" required>
+						</div>
+						<div class="form-group">
+							<label for="message">Message:</label>
+							<textarea class="form-control rounded" id="message" name="message" rows="4" required></textarea>
+						</div>
+						<button type="submit" class="btn btn-primary">Send</button>
+					</form>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<!-- Include Bootstrap JavaScript bundle (same version as the CSS) -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
